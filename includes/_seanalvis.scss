@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/*------------------------------------*\
+  Responsive CSS Grid v1.0
+  author: Sean Alvis Walker
+  @sean_alvis, www.seanalvis.com
+  Updated: 06/24/2015
+\*------------------------------------*/
+
+
+#assignments {
+
+}
+#assignments h2 {
+	margin: 1em 0 .75em;
+}
+.bar80 {
+	background-color: grey;
+	color: #eee;
+	float: left;
+	font-size: 1.1em;
+	line-height: 1.5;
+	margin: 1em auto;
+	opacity: .6;
+	width: 100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+.bar80 p {
+	margin-top: .75em;
+}
+.darkRed {
+	color: #907080;
+}
+.date {
+	padding: .75em;
+}
+.float-left-60 {
+	float: left;
+	width: 65%;
+}
+.float-left-right {
+	border-right: dotted 1px;
+	float: left;
+	margin-right: 1em;
+	padding: 2em;
+}
+.float-left-50 {
+	float: left;
+	padding: 2em 1em;
+}
+.fluid_container {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 90%;
+}
+#hex {
+	text-align: center;
+ 	width: 100%; 
+}
+@media screen and (min-width: 25em) {
+	#hex {
+		margin-bottom: 3em;
+	}
+}
+@media screen and (min-width: 45em) {
+	#hex {
+		margin-bottom: 5em;
+	}
+}
+.hexa {
+	margin: 0;
+	width: 10em;
+	
+}
+.hexa:hover, .hexa:focus {
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 58em) {
+  .hexa {
+  	margin: -1em 1em;
+  	
+  }
+}
+
+hr {
+ 	height:.10em; 
+ 	border:none; color:#222; 
+ 	background-color:#222;
+ 	text-align:center; 
+ 	margin: 2em auto;
+ 	width: 12em;
+}
+.icons {
+	font-size: 1.5em;
+ 	margin: .5em auto;
+ 	text-align: center;
+}
+.img-round {
+	display: block;
+	float:none; 
+	margin: 2em auto;
+ 	width: 20em;
+ 	@include border-radius(200%);
+}
+
+.outline {
+	border: .75px solid black;
+	margin-bottom: 1em;
+}
+.photo-right {
+	border: solid 1px;
+	margin-left: 1em;
+
+}
+.pad-top {
+	padding-top: 5em;
+}
+.portfolio-h1 {
+	display: block;
+}
+.port-ex {
+	display: inline-block;
+	padding: .5em 0;
+}
+.port-ex:hover, .port-ex:focus {
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#quote {
+	color: #536878;
+ 	font-family: 'Tangerine', cursive;
+ 	font-size: 4em;
+ 	font-weight: bold;
+ 	margin: .25em 0 .5em 0;
+ 	text-align: center;
+}
+
+.responsive {
+ 	margin-bottom: 2em;
+ 	
+}
+
+.round-img {
+	display: block;
+	float:none; 
+	margin: 2em auto;
+ 	width: 15em;
+ 	@include border-radius(200%);
+}
+.rule {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #999;
+	margin-top: 12px;
+}
+.shape {
+	margin: 2em;
+}
+.site-sean {
+	display: inline-block;
+	font-family: 'Crimson Text', serif;
+	font-size: 2.25em;
+	
+}
+.siteBy {
+	display: inline-block;
+	font-size: 1em;
+	padding: .5em;
+		
+}
+.square {
+	background-color: #444;
+	margin-right: 2em;
+	padding: .5em;
+	width: 4em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}
+.twenty {
+	width: 20%;
+}
+.up {
+  bottom: .75em;
+  color: #c7c7c7;
+  cursor:pointer;
+  font-size: 4em;
+  height: 1em;
+  position: fixed;
+  right: .75em;
+  text-align: center;
+  width: 1.25em;
+}
+.width {
+	margin: 1em auto;
+	padding: 1em;
+	text-align: center;
+	max-width: 40em;
+}
+.width-50 {
+	width: 50%
+}
+.wrap {
+	width:1335px;
+}
+
